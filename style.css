@@ -64,10 +64,12 @@ body{
     justify-self: center;
     width: 97vw;
     border-radius: 20px;
-    height: 50vh;
+    height: 65vh;
     padding-left:35px ;
     box-shadow: -1px -1px 1px 1px#a5a5a517 ;
     line-height: 40px;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
 #BrandName{
     margin-top: 20px;
@@ -95,7 +97,86 @@ body{
 background-color: #000000e3;
 
 }
+#subscribe{
+    max-width: 400px;
+    line-height: 20px;
+    padding-top: 10px;
 
+}
+
+ul{
+    
+    text-transform: capitalize;
+    line-height: 35px;
+}
+ul li:hover{
+    cursor: pointer;
+    
+    
+    color: #2936ec98;
+    
+}
+.listCont{
+    
+    /* left: 550px; */
+    margin-top: -22vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-left: 40vw;
+    
+}
+hr{
+    width: 78em;
+}
+#copywrite{
+    text-align: center;
+    display: block;
+    justify-self: center;
+}
+#footer{
+    margin-top: 50px;
+}
+
+    
+   
+
+
+@media (max-width: 400px){
+    .listCont{
+        margin-top: 30px;
+        margin-left:-20px ;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footerCont{
+        height:fit-content;
+    }
+    .h1,.para{
+        max-width: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #input-email{
+        width: 320px;
+        margin-left: -12px;
+    }
+}
+
+
+
+@media (max-width: 700px){
+    .listCont{
+        position: relative;
+        /* left: 550px; */
+        top: 12px;
+        
+        
+
+        left: 10vw;
+    }
+}
 /* COLORS
 UNITS ; PX, %, em, rem, vw,vh
 font family */
