@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom , #e5eaff, #d8f8fa);
+                                                                                                                                         
+}
+.top-element{
+    display: block;
+    justify-items: center;
+    margin-top: 100px;
+
+}
+.h1{
+    max-width: 430px;
+    text-align: center;
+    font-size: 39px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+    max-width: 490px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 25px;
+}
+
+.start-now {
+    padding: 13px 15px;
+    background-color:#2936ec;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #5555ee7e ;
+    margin-right: 20px;
+}
+.contact-us{
+    padding: 13px 15px;
+    background-color:#fff;
+    border: none;
+    color: #000;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #7171727e ;
+}
+.start-now:hover{
+    transform: translateY(-2px);
+    transition: 0.20s;
+}
+.contact-us:hover{
+    transform: translateY(-2px);
+    transition: 0.20s;
+}
+.footerCont{
+    margin-top: 12vh;
+    background-color: #fff;
+    display: block;
+    justify-self: center;
+    width: 97vw;
+    border-radius: 20px;
+    height: 50vh;
+    padding-left:35px ;
+    box-shadow: -1px -1px 1px 1px#a5a5a517 ;
+    line-height: 40px;
+}
+#BrandName{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+#input-email{
+    padding: 14px 15px;
+    border-radius: 50px;
+    width: 250px;
+    outline: none;
+    border-color: #00000057;
+    margin-top: 20px;
+}
+.submit{
+    padding: 12px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: -80px;
+    border: none;
+}
+.submit:hover{
+background-color: #000000e3;
+
+}
+
+/* COLORS
+UNITS ; PX, %, em, rem, vw,vh
+font family */
