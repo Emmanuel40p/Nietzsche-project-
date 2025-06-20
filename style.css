@@ -142,15 +142,26 @@ hr{
    
 
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     .listCont{
         margin-top: 30px;
-        margin-left:-20px ;
-        display: flex;
-        flex-direction: column;
+        margin-left:-40px ;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 180px 220px ;
+        column-gap: 10px;
         
     }
+    #subscribe{
+        margin-right: 20px;
+        text-align: center;
+    }
+    hr{
+        width:90%;
+
+    }
     .footerCont{
+        width: 90%;
         height:fit-content;
     }
     .h1,.para{
@@ -159,8 +170,20 @@ hr{
         padding-right: 10px;
     }
     #input-email{
-        width: 320px;
-        margin-left: -12px;
+        width: 80%;
+    }
+    .start-now {
+        display: block;
+        margin-bottom: 10px;
+        width: 130px;
+    }
+    .contact-us{
+        margin-left: -20px;
+        width: 130px;
+
+    }
+    #BrandName{
+        margin-bottom: 5px;
     }
 }
 
